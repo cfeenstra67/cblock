@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20729822E1B6D06AFD5B7D0C8F0FCE2D /* Pods-cblock_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BCEF7D1B0CB792F44F40DD8DC9EA3C /* Pods-cblock_Tests-dummy.m */; };
+		3285032E1E92F329005D1A4E /* cblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 3285032C1E92F329005D1A4E /* cblock.h */; };
+		3285032F1E92F329005D1A4E /* cblock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3285032D1E92F329005D1A4E /* cblock.m */; };
+		5D42AEE8B4D199BB450EC8FA9DE3174E /* Pods-cblock_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AAF4D9D7764E5E6A31013E79B8D818 /* Pods-cblock_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1F40CD1D2413733A898AD3F68B3D549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E302B21B4882CB192996E3E959B5496C /* cblock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B6EB1CB20EB3DE65CF8AAE5B071F34 /* cblock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC1DF41671CD2368CD7EBAD835375656 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F0EE218786E4E040E5DEB6AEC52C59CE /* cblock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDBF627E73D6CDB48226FDEE4214BB9 /* cblock-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FBE5C33918E1A3F1D890FBA7F05817D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F97D221965670C09B76DAFBFC9C720B5;
+			remoteInfo = cblock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AD8AFA7E9EDC29919A1202185A55558 /* Pods-cblock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cblock_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1B14D57958EA1F8FBC8F19C41E96D30D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DDBF627E73D6CDB48226FDEE4214BB9 /* cblock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cblock-dummy.m"; sourceTree = "<group>"; };
+		2FB628D97D1F17AFFB9465E1A0546655 /* Pods-cblock_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cblock_Tests-resources.sh"; sourceTree = "<group>"; };
+		3285032C1E92F329005D1A4E /* cblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cblock.h; sourceTree = "<group>"; };
+		3285032D1E92F329005D1A4E /* cblock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cblock.m; sourceTree = "<group>"; };
+		34CA4778D6FE7438597F6D9FDC07BF1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BDCEC848A7B7A3786FCD9D1C21BE74D /* Pods-cblock_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-cblock_Tests.modulemap"; sourceTree = "<group>"; };
+		42AAF4D9D7764E5E6A31013E79B8D818 /* Pods-cblock_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cblock_Tests-umbrella.h"; sourceTree = "<group>"; };
+		53C8248D68CD6D254FB28E754A129F80 /* cblock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cblock.xcconfig; sourceTree = "<group>"; };
+		600F444C2EED37B7F1813A4AF40E6BA0 /* Pods_cblock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cblock_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69AE9666AD367F9CC225DDFBEF8F98D0 /* cblock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cblock-prefix.pch"; sourceTree = "<group>"; };
+		71E3A6DD64A6D1C4664415D17E24EE16 /* Pods-cblock_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cblock_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		74A02CB49843CB1112DC81968C90FEA6 /* Pods-cblock_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cblock_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4E13B993159C794882264442E061AF3 /* cblock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = cblock.modulemap; sourceTree = "<group>"; };
+		B740DE601C58DE24D9B8AFA315632BB1 /* Pods-cblock_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cblock_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C379B6E413E12EA4D15BA7DFB2A4C6B5 /* cblock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cblock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B6EB1CB20EB3DE65CF8AAE5B071F34 /* cblock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cblock-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F0BCEF7D1B0CB792F44F40DD8DC9EA3C /* Pods-cblock_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cblock_Tests-dummy.m"; sourceTree = "<group>"; };
+		F26300E55A92C2093510093BA066F9F3 /* Pods-cblock_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cblock_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D94FAD778819A7C02CFD8C67E7DB348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F40CD1D2413733A898AD3F68B3D549 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A975A6BF451DA26E6E482FECE30A59A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1DF41671CD2368CD7EBAD835375656 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D74449D22585A58BD4AC7067264E1B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86961AAED1789EDC57322320FE15750A /* cblock */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		389DADE694F7233A8D836FC9A1F731D6 /* cblock */ = {
+			isa = PBXGroup;
+			children = (
+				827C42ED48E7AECDCC9F778DFBD6C960 /* Classes */,
+			);
+			path = cblock;
+			sourceTree = "<group>";
+		};
+		6C46A1B13E4E636AD09DF004BCBD96CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4E13B993159C794882264442E061AF3 /* cblock.modulemap */,
+				53C8248D68CD6D254FB28E754A129F80 /* cblock.xcconfig */,
+				1DDBF627E73D6CDB48226FDEE4214BB9 /* cblock-dummy.m */,
+				69AE9666AD367F9CC225DDFBEF8F98D0 /* cblock-prefix.pch */,
+				C5B6EB1CB20EB3DE65CF8AAE5B071F34 /* cblock-umbrella.h */,
+				1B14D57958EA1F8FBC8F19C41E96D30D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/cblock";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				24D74449D22585A58BD4AC7067264E1B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C05DBEDA77F6885DC8F0824702CC634E /* Products */,
+				9544E670296FA7780507E004FF25E6AE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		827C42ED48E7AECDCC9F778DFBD6C960 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3285032C1E92F329005D1A4E /* cblock.h */,
+				3285032D1E92F329005D1A4E /* cblock.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		86961AAED1789EDC57322320FE15750A /* cblock */ = {
+			isa = PBXGroup;
+			children = (
+				389DADE694F7233A8D836FC9A1F731D6 /* cblock */,
+				6C46A1B13E4E636AD09DF004BCBD96CE /* Support Files */,
+			);
+			name = cblock;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9544E670296FA7780507E004FF25E6AE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2FD4DF93886ACC5266AEC3BE6E85E7B /* Pods-cblock_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C05DBEDA77F6885DC8F0824702CC634E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C379B6E413E12EA4D15BA7DFB2A4C6B5 /* cblock.framework */,
+				600F444C2EED37B7F1813A4AF40E6BA0 /* Pods_cblock_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2FD4DF93886ACC5266AEC3BE6E85E7B /* Pods-cblock_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				34CA4778D6FE7438597F6D9FDC07BF1B /* Info.plist */,
+				3BDCEC848A7B7A3786FCD9D1C21BE74D /* Pods-cblock_Tests.modulemap */,
+				F26300E55A92C2093510093BA066F9F3 /* Pods-cblock_Tests-acknowledgements.markdown */,
+				74A02CB49843CB1112DC81968C90FEA6 /* Pods-cblock_Tests-acknowledgements.plist */,
+				F0BCEF7D1B0CB792F44F40DD8DC9EA3C /* Pods-cblock_Tests-dummy.m */,
+				B740DE601C58DE24D9B8AFA315632BB1 /* Pods-cblock_Tests-frameworks.sh */,
+				2FB628D97D1F17AFFB9465E1A0546655 /* Pods-cblock_Tests-resources.sh */,
+				42AAF4D9D7764E5E6A31013E79B8D818 /* Pods-cblock_Tests-umbrella.h */,
+				71E3A6DD64A6D1C4664415D17E24EE16 /* Pods-cblock_Tests.debug.xcconfig */,
+				1AD8AFA7E9EDC29919A1202185A55558 /* Pods-cblock_Tests.release.xcconfig */,
+			);
+			name = "Pods-cblock_Tests";
+			path = "Target Support Files/Pods-cblock_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		060A9693E1B7AE85983A0017D73A8BEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D42AEE8B4D199BB450EC8FA9DE3174E /* Pods-cblock_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F03A32D28757BE3ED9EDD251C0D595 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3285032E1E92F329005D1A4E /* cblock.h in Headers */,
+				E302B21B4882CB192996E3E959B5496C /* cblock-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B058F4A708BEDEC59FBAAED65DF60EB7 /* Pods-cblock_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FCD598196CD74122EB454242C77836E /* Build configuration list for PBXNativeTarget "Pods-cblock_Tests" */;
+			buildPhases = (
+				C6066136AB12E4FA7D2F6C55976FF8A0 /* Sources */,
+				A975A6BF451DA26E6E482FECE30A59A2 /* Frameworks */,
+				060A9693E1B7AE85983A0017D73A8BEF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880728EFF1A1E1521911C85A7C92E7CB /* PBXTargetDependency */,
+			);
+			name = "Pods-cblock_Tests";
+			productName = "Pods-cblock_Tests";
+			productReference = 600F444C2EED37B7F1813A4AF40E6BA0 /* Pods_cblock_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F97D221965670C09B76DAFBFC9C720B5 /* cblock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C44FED8CBEABE1BAB7A929CE2719C0 /* Build configuration list for PBXNativeTarget "cblock" */;
+			buildPhases = (
+				DA2C937EDB3E34251797BF83C5F6BCC8 /* Sources */,
+				2D94FAD778819A7C02CFD8C67E7DB348 /* Frameworks */,
+				35F03A32D28757BE3ED9EDD251C0D595 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cblock;
+			productName = cblock;
+			productReference = C379B6E413E12EA4D15BA7DFB2A4C6B5 /* cblock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C05DBEDA77F6885DC8F0824702CC634E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F97D221965670C09B76DAFBFC9C720B5 /* cblock */,
+				B058F4A708BEDEC59FBAAED65DF60EB7 /* Pods-cblock_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6066136AB12E4FA7D2F6C55976FF8A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20729822E1B6D06AFD5B7D0C8F0FCE2D /* Pods-cblock_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2C937EDB3E34251797BF83C5F6BCC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EE218786E4E040E5DEB6AEC52C59CE /* cblock-dummy.m in Sources */,
+				3285032F1E92F329005D1A4E /* cblock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		880728EFF1A1E1521911C85A7C92E7CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cblock;
+			target = F97D221965670C09B76DAFBFC9C720B5 /* cblock */;
+			targetProxy = 3FBE5C33918E1A3F1D890FBA7F05817D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		143CDC12E857431461AC735928522BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E3A6DD64A6D1C4664415D17E24EE16 /* Pods-cblock_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-cblock_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cblock_Tests/Pods-cblock_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_cblock_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C12EFD0C4C4EC9177EAFF5B7583EB2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C8248D68CD6D254FB28E754A129F80 /* cblock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/cblock/cblock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cblock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/cblock/cblock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = cblock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3D0162B6C44DADA1978027D0B60B68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C8248D68CD6D254FB28E754A129F80 /* cblock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/cblock/cblock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cblock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/cblock/cblock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = cblock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF2879D2F19E674AF38111601BC4877B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD8AFA7E9EDC29919A1202185A55558 /* Pods-cblock_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-cblock_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cblock_Tests/Pods-cblock_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_cblock_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FCD598196CD74122EB454242C77836E /* Build configuration list for PBXNativeTarget "Pods-cblock_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143CDC12E857431461AC735928522BB7 /* Debug */,
+				EF2879D2F19E674AF38111601BC4877B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C44FED8CBEABE1BAB7A929CE2719C0 /* Build configuration list for PBXNativeTarget "cblock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D0162B6C44DADA1978027D0B60B68E /* Debug */,
+				C12EFD0C4C4EC9177EAFF5B7583EB2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

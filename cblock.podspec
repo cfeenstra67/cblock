@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'cblock'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of cblock.'
+  s.summary          = 'A class that leverages blocks to allow for better organization of code in some cases.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This pod defines a class "cblock" with just two class methods--[cblock make:] and [cblock run:].  The make: method allows the programmer to use a block to define a custom object, keeping all of the intialization code together and making the code overall easier to read.  The run: method simply allows the programmer to run a block as soon as it is defined, but offers an inline solution to do so.
                        DESC
 
   s.homepage         = 'https://github.com/cfeenstra67/cblock'

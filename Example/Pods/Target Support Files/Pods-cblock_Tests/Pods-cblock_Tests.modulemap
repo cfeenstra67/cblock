@@ -1,0 +1,6 @@
+framework module Pods_cblock_Tests {
+  umbrella header "Pods-cblock_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

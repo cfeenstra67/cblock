@@ -1,0 +1,6 @@
+framework module cblock {
+  umbrella header "cblock-umbrella.h"
+
+  export *
+  module * { export * }
+}

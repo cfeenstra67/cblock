@@ -1,0 +1,16 @@
+PODS:
+  - cblock (0.1.0)
+
+DEPENDENCIES:
+  - cblock (from `../`)
+
+EXTERNAL SOURCES:
+  cblock:
+    :path: ../
+
+SPEC CHECKSUMS:
+  cblock: f3c84ab7444a0dd5fa8aa3f71447f1b1f5967f52
+
+PODFILE CHECKSUM: f50866583fc08e7024e92ed5b4b0771e3463f817
+
+COCOAPODS: 1.2.0
