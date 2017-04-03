@@ -14,7 +14,7 @@
     return block();
 }
 
-+(id)run:(void(^)())block{
++(void)run:(void(^)())block{
     block();
 }
 
